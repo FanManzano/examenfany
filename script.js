@@ -1,7 +1,7 @@
 function saludar()
 {
     let saludar = (prompt("escribe tu nombre"))
-        alert ("Hola"+ saludar +"suerte en tu examen")
+        alert ("Hola "+ saludar +" suerte en tu examen")
 
 }
 
@@ -16,6 +16,6 @@ function calcularCuadrado()
     else
     {       
     let resultado = numero*numero
-    alert("el cuadrado del numero es:" + resultado)
+    alert("el cuadrado del numero es: " + resultado)
     }
 }
